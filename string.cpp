@@ -51,6 +51,7 @@ char* mystrtok(char* str, char delimit)
 
 }
 
+// new stl functions added 
 
 
 int main()
@@ -58,8 +59,6 @@ int main()
     i_o_f();
 
     char s[100] = "today, is a rainy day";
-
-    char *ptr = mystrtok(s,' ');
     cout << ptr << endl;
 
     while(ptr!=NULL){
